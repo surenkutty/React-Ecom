@@ -1,0 +1,76 @@
+.navbar{
+    /* background-color: red; */
+    /* background-color: aliceblue; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.logo-img{
+
+    height: 100px;
+    width: 150px;
+}
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #d4b819dc;
+    padding-top: 20px;
+    padding-left: 50px;
+
+
+}
+.banner-btn{
+    background-color: aqua;
+}
+.span2{
+    font-weight: 600;
+    color:black;
+}
+.span1{
+    color:lavenderblush;
+
+}
+li a:hover{
+    color: blueviolet;
+}
+li a{
+    text-decoration: none;
+    
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.banner h1{
+    font-weight: bold;
+   padding-top:82px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-left: 50px;
+   font-size:40px;
+
+}
+.banner{
+    margin-top: 40px;
+    /* padding-top: 10%; */
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    background-image: url('https://www.autofarmindia.com/wp-content/uploads/2021/08/traditional-farming.png');
+}
