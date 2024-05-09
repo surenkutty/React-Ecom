@@ -7,8 +7,11 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+    <div className='background'>
+    <Navbar/>
       <Banner/>
+    </div>
+      
           
     </>
   )
